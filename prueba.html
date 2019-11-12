@@ -1,0 +1,44 @@
+<html> <head> <meta name = "viewport" content = "width = device-width" /> <title> PrintJsTest </title> <link href = "~ / Content / bootstrap.min.css" rel = " hoja de estilo " /> <link href = " ~ / Content / Site.css " rel = " stylesheet " /> <link rel = " stylesheet " type = " text / css " href = " https: //printjs-4de6.kxcdn .com / print.min.css " > </head> <body> <div>
+
+       
+    
+       
+       
+       
+
+
+    
+    <div style = " width : 100% " id = "div_table" > <table id = "example2" class = "table table-hover display" style = " width : 50% " > <thead> <tr> <th> Saludo </th> </tr> </thead> <tbody> <tr> <td> Hello World </td> </tr> </tbody> <tfoot> <tr><td> Hola mundo </td> </tr> </tfoot>  
+           
+            
+                
+                    
+                
+            
+            
+                
+                    
+                
+            
+            
+                
+                    
+                
+            
+        </table> </div> <input type = "button" id = "div_print" value = "Print" > </div> <script src = "~ / Scripts / jquery-3.3.1.js" > </ script> <script src = "~ / Scripts / bootstrap.min.js" > </script> <script src = "https://printjs-4de6.kxcdn.com/print.min.js" > </script> <script> 
+    documento . getElementById ( 'div_print' ).
+    
+       
+
+ 
+ 
+ 
+)
+
+    función print () { 
+        printJS ({ 
+            imprimible : 'div_table' , 
+            tipo : 'html' , 
+            targetStyles : [ '*' ] }) } </script> </body> </html>    
+        
+    
